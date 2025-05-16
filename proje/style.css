@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.topbar {
+  margin-top:0;
+  background-color: #EFEFEF;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-left span {
+   margin-right: 25px;
+   font-size: 12px;
+   color: #52575D;
+   cursor: pointer;
+}
+.topbar-left span i{
+    font-size: 10px;
+    color: #41444B;
+}
+.topbar-left i {
+    margin-right: 6px;
+}
+.topbar-left span:hover{
+    color: #7D0633;
+}
+
+.topbar-right a {
+    margin-left: 12px;
+    color: #C0A080;
+    text-decoration: none;
+}
+.fa-phone{
+    margin-left: 20px;
+}
+.fa-twitter:hover {
+    color: #153448;
+}
+.fa-facebook-f:hover{
+    color: #153448;
+}
+.fa-google-plus-g:hover{
+    color:#153448;
+}
+.fa-pinterest-p:hover{
+    color: #153448;
+}
+.fa-instagram:hover{
+    color: #153448;
+}
+.fa-linkedin-in:hover{
+    color: #153448;
+}
+.fa-vimeo-v:hover{
+    color:#153448;
+}
+.fa-rss:hover{
+    color:#153448;
+}
+.fa-rss{
+    margin-right:20px;
+}
+.cw{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+  background-color: #795757;
+}
+ #hover:hover{
+  transform: scale(1.2);
+  background-color: #889EAF;
+  color:#383838;
+}
+.cw a{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FEFBF6;
+  padding: 10px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+.cw a i{
+  margin-right: 8px;
+  color: #B7C4CF;
+   transition: color 0.3s ease;
+}
+.fa-house{
+  margin-right: 5px;
+}
+.fa-house:hover{
+  color: #6C3428;
+}
+.fa-briefcase:hover{
+  color: #6C3428;
+}
+.fa-address-card:hover{
+  color: #6C3428;
+}
+#text{
+  border-radius: 16px;
+}
+.btn{
+ color: #6C3428;
+ background-color:#FCF8F3;
+}
+.cw img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.img:hover {
+  animation: rotate 1s linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
